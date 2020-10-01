@@ -1,15 +1,25 @@
 import React from 'react';
 import Header from './components/Header/header';
 import Home from './components/Home/home';
+import Checkout from './components/Checkout/checkout';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 
 function App() {
 	return (
-		<div className="app">
+		<Router>
+			<div className="app">
       <Header />
-      <Home />
-			<h1>ff</h1>
-		</div>
+				<Switch>
+					<Route exact path="/">
+						<Home />
+					</Route>
+					<Route path="/checkout">
+						<Checkout />
+					</Route>
+				</Switch>
+			</div>
+		</Router>
 	);
 }
 

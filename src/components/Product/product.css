@@ -20,20 +20,22 @@
 }
 
 .product > button {
-    background: #f0c14b;
-    border: 1px solid;
-    margin-top: 10px;
-    border-color: #a88734 #9c7e31 #846a29;
-    color: #111;
+	background: #f0c14b;
+	border: 1px solid;
+	margin-top: 10px;
+	border-color: #a88734 #9c7e31 #846a29;
+	color: #111;
+}
+
+.rating {
+	display: flex;
 }
 
 .info {
-    height: 100px;
-    margin-bottom: 15px;
+	height: 100px;
+	margin-bottom: 15px;
 }
 
 .price {
-    margin-top: 5px;
+	margin-top: 5px;
 }
-
-
