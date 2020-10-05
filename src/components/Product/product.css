@@ -28,7 +28,11 @@
 }
 
 .rating {
-	display: flex;
+    display: flex;
+}
+
+.rating p {
+    padding: 5px;
 }
 
 .info {

@@ -13,24 +13,40 @@ function Home() {
 				/>
 				<div className="row">
 					<Product
-						title="aaaa"
-						price={6.99}
-						image="https://images-na.ssl-images-amazon.com/images/I/91Wtt-anksL.__BG0,0,0,0_FMpng_AC_SY220_.jpg"
+						title="Apple Watch Series 5 (GPS, 44mm) - Space Gray Aluminum Case with Black Sport Band"
+						price={420.99}
+						image="https://m.media-amazon.com/images/I/71wu+HMAKBL._AC_UL320_.jpg"
 						rating={3}
 					/>
 					<Product 
-                    title="bbbb"
-                    price={5.99}
-                    image="https://images-na.ssl-images-amazon.com/images/I/91Wtt-anksL.__BG0,0,0,0_FMpng_AC_SY220_.jpg"
+                    title="New Apple Watch SE (GPS, 40mm) - Gold Aluminum Case with Pink Sand Sport Band"
+                    price={290.99}
+                    image="https://m.media-amazon.com/images/I/81RClERgB8L._AC_UL320_.jpg"
                     rating={3}/>
 				</div>
 				<div className="row">
-					<Product />
-					<Product />
-					<Product />
+                    <Product 
+                    title="Apple AirPods with Charging Case (Wired)"
+                    price={129.99}
+                    image="https://m.media-amazon.com/images/I/7120GgUKj3L._AC_UL320_.jpg"
+                    rating={3}/>
+                    <Product 
+                    title="Echo Dot (3rd Gen) Kids Edition, an Echo designed for kids with parental controls - Rainbow"
+                    price={30.99}
+                    image="https://m.media-amazon.com/images/I/619hTFl4+IL._AC_UL320_.jpg"
+                    rating={3}/>
+					<Product 
+                    title="Obuby Walkie Talkies for Kids, 22 Channels "
+                    price={90.99}
+                    image="https://images-na.ssl-images-amazon.com/images/I/71eo3lgsZ8L._AC_SL1500_.jpg"
+                    rating={3}/>
 				</div>
 				<div className="row">
-					<Product />
+					<Product
+                    title="Toshiba TF-55A810U21 55-inch 4K UHD TV - Fire TV Edition"
+                    price={449.99}
+                    image="https://m.media-amazon.com/images/I/61xU+HbHJyL._AC_UY218_.jpg"
+                    rating={3}/>
 				</div>
 			</div>
 		</div>
